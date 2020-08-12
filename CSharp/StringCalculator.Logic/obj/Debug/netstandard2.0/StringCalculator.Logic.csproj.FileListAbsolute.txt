@@ -1,0 +1,8 @@
+C:\Users\yasub.hashmi\source\repos\StringCalculator\CSharp\StringCalculator.Logic\bin\Debug\netstandard2.0\StringCalculator.Logic.deps.json
+C:\Users\yasub.hashmi\source\repos\StringCalculator\CSharp\StringCalculator.Logic\bin\Debug\netstandard2.0\StringCalculator.Logic.dll
+C:\Users\yasub.hashmi\source\repos\StringCalculator\CSharp\StringCalculator.Logic\bin\Debug\netstandard2.0\StringCalculator.Logic.pdb
+C:\Users\yasub.hashmi\source\repos\StringCalculator\CSharp\StringCalculator.Logic\obj\Debug\netstandard2.0\StringCalculator.Logic.csprojAssemblyReference.cache
+C:\Users\yasub.hashmi\source\repos\StringCalculator\CSharp\StringCalculator.Logic\obj\Debug\netstandard2.0\StringCalculator.Logic.AssemblyInfoInputs.cache
+C:\Users\yasub.hashmi\source\repos\StringCalculator\CSharp\StringCalculator.Logic\obj\Debug\netstandard2.0\StringCalculator.Logic.AssemblyInfo.cs
+C:\Users\yasub.hashmi\source\repos\StringCalculator\CSharp\StringCalculator.Logic\obj\Debug\netstandard2.0\StringCalculator.Logic.dll
+C:\Users\yasub.hashmi\source\repos\StringCalculator\CSharp\StringCalculator.Logic\obj\Debug\netstandard2.0\StringCalculator.Logic.pdb
