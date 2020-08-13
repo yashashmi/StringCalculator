@@ -1,8 +1,9 @@
 using System;
+using System.Collections;
 
 namespace StringCalculator.Logic.Tests
 {
-    public class StringCalculator6
+    public class StringCalculator7
     {
         public static int Add(string numbers)
         {
@@ -21,12 +22,24 @@ namespace StringCalculator.Logic.Tests
         {
             int returnValue = 0;
             var numbersArray = numbers.Split(delimiter.ToCharArray());
+            var negativeNumbers = new ArrayList();
             foreach (var number in numbersArray)
             {
-                if (!number.Equals(string.Empty))
-                    returnValue += Int16.Parse(number);
-            }
 
+                if (!number.Equals(string.Empty))
+                {
+                    var intNumber = Int16.Parse(number);
+                    if (intNumber < 0)
+                    {
+                        negativeNumbers.Add(number);
+                    }
+                    returnValue += intNumber;
+                }
+            }
+            if (negativeNumbers.Count > 0)
+            {
+                throw new ArgumentException("Negatives not allowed: " + String.Join(",", negativeNumbers.ToArray()));
+            }
             return returnValue;
         }
     }
